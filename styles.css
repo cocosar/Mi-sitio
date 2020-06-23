@@ -1,0 +1,122 @@
+
+/* Restarting default */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: unset;
+    font-weight: unset;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Fix temporal BORRAR */
+img {
+    width: 30vw;
+}
+
+main {
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+/* Barra de navegación || TODO: MEDIAQUERY CON WRAP  */
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: #C63F2F;
+    box-shadow: 0px 2px 7px 2px grey;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+
+    font-size: 3vh;
+}
+
+nav .logo {
+    padding: 2.3vh;
+}
+
+nav .logo:hover {
+    background-color: #DE562A;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 2.3vh;
+}
+
+nav ul li:hover {
+    background-color: #DE562A;
+    font-weight: 600;
+}
+
+
+
+/* Welcome section || MEDIAQUERY CON MARGINS */
+
+.welcome {
+    margin-top: 8vh;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome h1 {
+    font-size: 9vh;
+    font-weight: 700;
+}
+
+.welcome p {
+    font-style: italic;
+    
+}
+
+.welcome i {
+    
+    
+}
+
+
+
+/* Estudios y tecnologias */
+
+.knowledge {
+    display: flex;
+    padding: 30vh;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.container-techs {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40vh;
+    flex-direction: row;
+    background-color: lemonchiffon;
+}
+
+.knowledge h2 {
+    background-color: lightgreen;
+}
+
+.knowledge p {
+    background-color: green;
+}
+
+.tech-box {
+    background-color: blue;
+    padding: 0vh;
+}

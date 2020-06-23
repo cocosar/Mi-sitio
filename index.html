@@ -4,59 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/582df9c97b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
     <nav class="navbar">
-        <a href="#">Juan José Sarsotti</a>
+        <a class="logo" href="#">Juan José Sarsotti</a>
         <ul>
-            <li>Tecnologias</li>
-            <li>Projectos</li>
-            <li>Acerca de mi</li>
-            <li>Contactame</li>
+            <li><a href="#">Tecnologias</a></li>
+            <li><a href="#">Projectos</a></li>
+            <li><a href="#">Acerca de mi</a></li>
+            <li><a href="#">Contactame</a></li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Front End Developer</h1>
-        <p>Ayudando a PyMes a tener su sitio web personalizado de calidad para la mejor experiencia con su clientela.</p>
-    </header>
+    <main>
 
-    <div class="knowledge">
-        <h2>Hola soy Juan José, un gusto.</h2>
-        <p>Autodidacta y motivado a seguir aprendiendo me he desarrollado en las siguientes tecnologias.</p>
-        <div class="container-techs">
-            <div class="tech-box"></div>
-            <div class="tech-box"></div>
-            <div class="tech-box"></div>
-            <div class="tech-box"></div>
+        <header class="welcome">
+            <h1>Mi Portftolio.</h1>
+            <p>Como <span>Desarrollador Front End</span> me encuentro ayudando a PyMes a tener su sitio web personalizado de calidad para la mejor experiencia con su clientela.</p>
+            <i class="fas fa-arrow-down fa-5x"></i>
+        </header>
+
+        <div class="knowledge">
+            <h2>Hola soy Juan José, un gusto.</h2>
+            <p>Autodidacta y motivado a seguir aprendiendo me he desarrollado en las siguientes tecnologias.</p>
+            <div class="container-techs">
+                <div class="tech-box">
+                    <i class="fas fa-graduation-cap fa-5x"></i>
+                    <h3>Tecnologia X</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+                <div class="tech-box">
+                    <i class="fas fa-book fa-5x"></i>
+                    <h3>Tecnologia X</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+                <div class="tech-box">
+                    <i class="fas fa-chalkboard-teacher fa-5x"></i>
+                    <h3>Tecnologia X</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="projects">
-        <h2>Algunos ejemplos de mi trabajo.</h2>
-        <div class="container-projects">
-            <div class="container-box"></div>
-            <div class="container-box"></div>
-            <div class="container-box"></div>
-            <div class="container-box"></div>
+        <div class="projects">
+            <h2>Algunos ejemplos de mi trabajo.</h2>
+            <div class="container-projects">
+                <div class="container-box">
+                    <img src="./Imagenes/chatbot.jpg" alt="chatbot">
+                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href=""><i class="fas fa-link fa-2x"></i></a>
+                </div>
+                <div class="container-box">
+                    <img src="./Imagenes/celular.jpg" alt="chatbot">
+                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href=""><i class="fas fa-link fa-2x"></i></a>
+                </div>
+                <div class="container-box">
+                    <img src="./Imagenes/onlinechat.jpg" alt="chat">
+                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href=""><i class="fas fa-link fa-2x"></i></a>
+                </div>
+                <div class="container-box">
+                    <img src="./Imagenes/more.png" alt="chatbot">
+                    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                    <a href=""><i class="fas fa-link fa-2x"></i></a>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="about-me">
-        <div class="card-photo"></div>
-    </div>
+        <div class="about-me">
+            <div class="card-photo"></div>
+        </div>
 
 
-    <div class="find-me">
-        <a href="http://www.github.com/CocoSar" target="_blank" rel="noopener noreferrer"></a>
-        <a href="http://www.twitter.com/JuanSarsotti" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <a href="https://www.linkedin.com/in/juanjosesarsotti/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-        <a href="mailto:juansarsotti@gmail.com">juansarsotti@gmail.com</a>
-    </div>
+        <div class="find-me">
+            <a href="http://www.github.com/CocoSar" target="_blank" rel="noopener noreferrer"></a>
+            <a href="http://www.twitter.com/JuanSarsotti" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.linkedin.com/in/juanjosesarsotti/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a href="mailto:juansarsotti@gmail.com">juansarsotti@gmail.com</a>
+        </div>
 
-    <footer>
-    </footer>
-
+        <footer>
+            Este sitio ha sido enteramente escrito y diseñado por mi. ~ Juan José Sarsotti
+        </footer>
+    </main>
 </body>
 </html>
